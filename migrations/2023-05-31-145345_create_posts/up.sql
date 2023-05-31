@@ -1,0 +1,7 @@
+CREATE TABLE posts (
+  id int NOT NULL,
+  title VARCHAR(200) NOT NULL,
+  body TEXT NOT NULL,
+  published BOOLEAN NOT NULL DEFAULT FALSE,
+  CONSTRAINT PK_posts PRIMARY KEY (id)
+)
